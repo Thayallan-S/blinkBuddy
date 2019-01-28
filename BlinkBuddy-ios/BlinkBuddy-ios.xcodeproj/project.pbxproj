@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33A655775C374AC90E35ED7B /* Pods_BlinkBuddy_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02FEEF7BEEB58896766D4B7 /* Pods_BlinkBuddy_ios.framework */; };
+		53D01C7521FD42C00011FED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D01C7421FD42C00011FED8 /* AppDelegate.swift */; };
+		53D01C7C21FD42C20011FED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D01C7B21FD42C20011FED8 /* Assets.xcassets */; };
+		53D01C7F21FD42C20011FED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D01C7D21FD42C20011FED8 /* LaunchScreen.storyboard */; };
+		53D01C8821FD43080011FED8 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D01C8721FD43080011FED8 /* SplashViewController.swift */; };
+		53D01C8A21FD468C0011FED8 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D01C8921FD468C0011FED8 /* UI.swift */; };
+		53D01C8D21FD46D00011FED8 /* UIColor+HexValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D01C8C21FD46D00011FED8 /* UIColor+HexValue.swift */; };
+		53D01C8F21FD46F10011FED8 /* UIViewController+AddRemoveChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D01C8E21FD46F10011FED8 /* UIViewController+AddRemoveChildren.swift */; };
+		53D01C9321FD47D60011FED8 /* MainFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D01C9221FD47D60011FED8 /* MainFlowController.swift */; };
+		53D01C9721FD48AA0011FED8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D01C9621FD48AA0011FED8 /* MainViewController.swift */; };
+		53D01C9921FD49D80011FED8 /* String+image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D01C9821FD49D80011FED8 /* String+image.swift */; };
+		53D01C9B21FD4A1D0011FED8 /* EmojiNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D01C9A21FD4A1D0011FED8 /* EmojiNode.swift */; };
+		53D01C9D21FD4A6D0011FED8 /* AppFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D01C9C21FD4A6D0011FED8 /* AppFlowController.swift */; };
+		53D01C9F21FD87100011FED8 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D01C9E21FD87100011FED8 /* GetStartedViewController.swift */; };
+		53D01CA121FE12E40011FED8 /* MosquittoServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D01CA021FE12E40011FED8 /* MosquittoServer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53D01C7121FD42C00011FED8 /* BlinkBuddy-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlinkBuddy-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D01C7421FD42C00011FED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53D01C7B21FD42C20011FED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53D01C7E21FD42C20011FED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53D01C8021FD42C20011FED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D01C8721FD43080011FED8 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		53D01C8921FD468C0011FED8 /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		53D01C8C21FD46D00011FED8 /* UIColor+HexValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexValue.swift"; sourceTree = "<group>"; };
+		53D01C8E21FD46F10011FED8 /* UIViewController+AddRemoveChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AddRemoveChildren.swift"; sourceTree = "<group>"; };
+		53D01C9221FD47D60011FED8 /* MainFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowController.swift; sourceTree = "<group>"; };
+		53D01C9621FD48AA0011FED8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		53D01C9821FD49D80011FED8 /* String+image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+image.swift"; sourceTree = "<group>"; };
+		53D01C9A21FD4A1D0011FED8 /* EmojiNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiNode.swift; sourceTree = "<group>"; };
+		53D01C9C21FD4A6D0011FED8 /* AppFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowController.swift; sourceTree = "<group>"; };
+		53D01C9E21FD87100011FED8 /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
+		53D01CA021FE12E40011FED8 /* MosquittoServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosquittoServer.swift; sourceTree = "<group>"; };
+		A02FEEF7BEEB58896766D4B7 /* Pods_BlinkBuddy_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkBuddy_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43A0087B323E3AB1773D1BF /* Pods-BlinkBuddy-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkBuddy-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlinkBuddy-ios/Pods-BlinkBuddy-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		E0B03D507DAE13414757B3FD /* Pods-BlinkBuddy-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkBuddy-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlinkBuddy-ios/Pods-BlinkBuddy-ios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53D01C6E21FD42C00011FED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A655775C374AC90E35ED7B /* Pods_BlinkBuddy_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53D01C6821FD42C00011FED8 = {
+			isa = PBXGroup;
+			children = (
+				53D01C7321FD42C00011FED8 /* BlinkBuddy-ios */,
+				53D01C7221FD42C00011FED8 /* Products */,
+				BD504BCA6C548638F0508B34 /* Pods */,
+				6862D3823B36CC21054069ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53D01C7221FD42C00011FED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53D01C7121FD42C00011FED8 /* BlinkBuddy-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53D01C7321FD42C00011FED8 /* BlinkBuddy-ios */ = {
+			isa = PBXGroup;
+			children = (
+				53D01CA021FE12E40011FED8 /* MosquittoServer.swift */,
+				53D01C8721FD43080011FED8 /* SplashViewController.swift */,
+				53D01C8021FD42C20011FED8 /* Info.plist */,
+				53D01C7421FD42C00011FED8 /* AppDelegate.swift */,
+				53D01C9C21FD4A6D0011FED8 /* AppFlowController.swift */,
+				53D01C7D21FD42C20011FED8 /* LaunchScreen.storyboard */,
+				53D01C9E21FD87100011FED8 /* GetStartedViewController.swift */,
+				53D01C9021FD47720011FED8 /* Features */,
+				53D01C8B21FD46B20011FED8 /* Extensions */,
+				53D01C8621FD42DF0011FED8 /* Resources */,
+			);
+			path = "BlinkBuddy-ios";
+			sourceTree = "<group>";
+		};
+		53D01C8621FD42DF0011FED8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53D01C7B21FD42C20011FED8 /* Assets.xcassets */,
+				53D01C8921FD468C0011FED8 /* UI.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53D01C8B21FD46B20011FED8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53D01C8C21FD46D00011FED8 /* UIColor+HexValue.swift */,
+				53D01C8E21FD46F10011FED8 /* UIViewController+AddRemoveChildren.swift */,
+				53D01C9821FD49D80011FED8 /* String+image.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		53D01C9021FD47720011FED8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				53D01C9121FD47990011FED8 /* Main */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		53D01C9121FD47990011FED8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				53D01C9221FD47D60011FED8 /* MainFlowController.swift */,
+				53D01C9621FD48AA0011FED8 /* MainViewController.swift */,
+				53D01C9A21FD4A1D0011FED8 /* EmojiNode.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6862D3823B36CC21054069ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A02FEEF7BEEB58896766D4B7 /* Pods_BlinkBuddy_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD504BCA6C548638F0508B34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B43A0087B323E3AB1773D1BF /* Pods-BlinkBuddy-ios.debug.xcconfig */,
+				E0B03D507DAE13414757B3FD /* Pods-BlinkBuddy-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53D01C7021FD42C00011FED8 /* BlinkBuddy-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D01C8321FD42C20011FED8 /* Build configuration list for PBXNativeTarget "BlinkBuddy-ios" */;
+			buildPhases = (
+				406709564771E8D563E8FBE9 /* [CP] Check Pods Manifest.lock */,
+				53D01C6D21FD42C00011FED8 /* Sources */,
+				53D01C6E21FD42C00011FED8 /* Frameworks */,
+				53D01C6F21FD42C00011FED8 /* Resources */,
+				F90CBC94E794AEAF83B8EEB2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlinkBuddy-ios";
+			productName = "BlinkBuddy-ios";
+			productReference = 53D01C7121FD42C00011FED8 /* BlinkBuddy-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53D01C6921FD42C00011FED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = BlinkBuddy;
+				TargetAttributes = {
+					53D01C7021FD42C00011FED8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 53D01C6C21FD42C00011FED8 /* Build configuration list for PBXProject "BlinkBuddy-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53D01C6821FD42C00011FED8;
+			productRefGroup = 53D01C7221FD42C00011FED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53D01C7021FD42C00011FED8 /* BlinkBuddy-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53D01C6F21FD42C00011FED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D01C7F21FD42C20011FED8 /* LaunchScreen.storyboard in Resources */,
+				53D01C7C21FD42C20011FED8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		406709564771E8D563E8FBE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlinkBuddy-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F90CBC94E794AEAF83B8EEB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BlinkBuddy-ios/Pods-BlinkBuddy-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework",
+				"${BUILT_PRODUCTS_DIR}/Moscapsule/Moscapsule.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyPeasy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moscapsule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlinkBuddy-ios/Pods-BlinkBuddy-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53D01C6D21FD42C00011FED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D01CA121FE12E40011FED8 /* MosquittoServer.swift in Sources */,
+				53D01C9F21FD87100011FED8 /* GetStartedViewController.swift in Sources */,
+				53D01C9721FD48AA0011FED8 /* MainViewController.swift in Sources */,
+				53D01C9321FD47D60011FED8 /* MainFlowController.swift in Sources */,
+				53D01C9921FD49D80011FED8 /* String+image.swift in Sources */,
+				53D01C8821FD43080011FED8 /* SplashViewController.swift in Sources */,
+				53D01C9B21FD4A1D0011FED8 /* EmojiNode.swift in Sources */,
+				53D01C9D21FD4A6D0011FED8 /* AppFlowController.swift in Sources */,
+				53D01C7521FD42C00011FED8 /* AppDelegate.swift in Sources */,
+				53D01C8F21FD46F10011FED8 /* UIViewController+AddRemoveChildren.swift in Sources */,
+				53D01C8A21FD468C0011FED8 /* UI.swift in Sources */,
+				53D01C8D21FD46D00011FED8 /* UIColor+HexValue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53D01C7D21FD42C20011FED8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D01C7E21FD42C20011FED8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53D01C8121FD42C20011FED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53D01C8221FD42C20011FED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53D01C8421FD42C20011FED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43A0087B323E3AB1773D1BF /* Pods-BlinkBuddy-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NK52B9LMW;
+				INFOPLIST_FILE = "BlinkBuddy-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BlinkBuddy.BlinkBuddy-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53D01C8521FD42C20011FED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B03D507DAE13414757B3FD /* Pods-BlinkBuddy-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NK52B9LMW;
+				INFOPLIST_FILE = "BlinkBuddy-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BlinkBuddy.BlinkBuddy-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53D01C6C21FD42C00011FED8 /* Build configuration list for PBXProject "BlinkBuddy-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D01C8121FD42C20011FED8 /* Debug */,
+				53D01C8221FD42C20011FED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D01C8321FD42C20011FED8 /* Build configuration list for PBXNativeTarget "BlinkBuddy-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D01C8421FD42C20011FED8 /* Debug */,
+				53D01C8521FD42C20011FED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53D01C6921FD42C00011FED8 /* Project object */;
+}
