@@ -1,1 +1,1 @@
-# blinkBuddy
+# BlinkBuddy
