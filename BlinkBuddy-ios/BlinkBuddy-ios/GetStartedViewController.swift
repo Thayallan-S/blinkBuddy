@@ -120,8 +120,8 @@ extension GetStartedViewController: ARSCNViewDelegate {
                          previousRawVal.removeAll()
                         
                         print("Starting...")
-                        let twilioSID = "AC945c8cd0f817eea99af5cef142083415"
-                        let twilioSecret = "5bbced2b27567c91a31243c5c3732392"
+                        let twilioSID = ""
+                        let twilioSecret = ""
                         //Note replace + = %2B , for To and From phone number
                         let fromNumber = "+12898053511"// actual number is +9999999
                         let toNumber = "+16478180429"// actual number is +9999999
